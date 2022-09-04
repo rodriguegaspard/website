@@ -1,9 +1,11 @@
 <template>
-  <div class="navbar">
-    <a href="/resume">Resume</a>
-    <a href="/projects">Projects</a>
-    <a href="/blog">Blog</a>
-  </div>
+  <footer>
+    <div class="navbar">
+      <a href="/resume">Resume</a>
+      <a href="/projects">Projects</a>
+      <a href="/blog">Blog</a>
+    </div>
+  </footer>
 </template>
 
 <style>
