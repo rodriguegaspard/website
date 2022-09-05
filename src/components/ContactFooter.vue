@@ -3,10 +3,10 @@
   <div class="contactinfo">
   </div>
   <div class="links">
-    <img src="../resources/gmail.svg" />
-    <img src="../resources/signal.png" />
-    <img src="../resources/github.png" />
-    <img src="../resources/linkedin.png" />
+    <img src="../assets/media/gmail.svg" />
+    <img src="../assets/media/signal.png" />
+    <img src="../assets/media/github.png" />
+    <img src="../assets/media/linkedin.png" />
   </div>
 </footer>
 </template>
