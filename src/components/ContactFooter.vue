@@ -3,7 +3,7 @@
   <div class="contactinfo">
   </div>
   <div class="links">
-    <img src="../assets/media/gmail.svg" />
+    <img src="../assets/media/gmail.png" />
     <img src="../assets/media/signal.png" />
     <img src="../assets/media/github.png" />
     <img src="../assets/media/linkedin.png" />
