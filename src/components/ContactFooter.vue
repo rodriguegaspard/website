@@ -16,14 +16,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-content: center;
+  width: 100vw;
+  height: 5vw;
 }
 
 .links > img {
   width: 75px;
   object-fit: contain;
+  filter: grayscale(1);
+  transition: 0.1s;
 }
 
-.contactinfo {
-
+.links > img:hover {
+  filter: grayscale(0);
 }
+
 </style>
