@@ -12,8 +12,14 @@ export default {
 
 <template>
   <NavigationBar />
-  <body>
-    <p>Welcome to the home page.</p>
-  </body>
+  <div class="homeContent">
+  </div>
   <ContactFooter />
 </template>
+
+<style>
+  .homeContent {
+    align-items: center;
+  }
+</style>
+
