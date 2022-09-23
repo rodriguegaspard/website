@@ -1,12 +1,12 @@
 <script>
 import NavigationBar from '../components/NavigationBar.vue'
 import ContactFooter from '../components/ContactFooter.vue'
-import ResumeItem from '../components/ResumeItem.vue'
 
   export default {
-    NavigationBar,
-    ContactFooter,
-    ResumeItem,
+      components:{
+      NavigationBar,
+      ContactFooter,
+    },
 
     mounted(){
       let html2pdfScript = document.createElement('script');
@@ -20,20 +20,35 @@ import ResumeItem from '../components/ResumeItem.vue'
 </script>
 
 <template>
+  <NavigationBar />
   <div class="resume">
     <div class="introduction">
     <h1>Rodrigue GASPARD</h1>
     <h2>About myself</h2>
-    <p>After obtaining a bachelor's degree in computer science at the University of Angers in France, I worked as a software developer in an art school for a year and a half. I'm currently looking for a Master's degree and an internship in Southeast Asia in software development in order to learn new skills and to practice English at a professional level. I'm very passionate about computer science, as it provide me with skills and tools that are very useful in my daily actibvities, and also it gives me interesting challenges that motivates me to push myself forward. I mainly use Arch Linux as my operating system.</p>
+    <p>After obtaining a bachelor's degree in computer science at the University of Angers in France, I worked as a software developer in an art school for a year and a half. I'm currently looking for a Master's degree and an internship in Southeast Asia in software development in order to learn new skills and to practice English at a professional level. I'm very passionate about computer science, as it provide me with skills and tools that are very useful in my daily activities, and also it gives me interesting challenges that motivates me to push myself forward. I mainly use Arch Linux as my operating system.</p>
     </div>
-    <div class="workexperience">
-      <ResumeItem title="Software developer - ESAD TALM" duration="" description="" logo=""/>
+    <div class="workExperience">
     </div>
-    <div class="academicbackground">
-      
+    <div class="academicBackground">
     </div>
   </div>
+  <ContactFooter />
 </template>
 
 <style>
+  .resume {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+  }
+
+  .workExperience {
+    display: flex;
+  }
+
+  .academicBackground {
+    display: flex;
+  }
 </style>
